@@ -35,7 +35,7 @@ class trapCard extends Card{
 /*$card = new Card('liti','description card');
 $card->Hello();*/
 
-$card = new TrapCard('liti','description card');
+$card = new TrapCard('liti','description card','effet');
 $card->Hello();
 
 ?>
