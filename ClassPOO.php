@@ -36,10 +36,17 @@ class Vehicle {
     public function setSpeed(string $speed){
         $this->_speed = $speed;
     }
-
-
 }
-
+class MaClass{
+    public static $_data = 'ProStatic';
+    //Methode static...
+    public static function Hello(){
+        echo 'Hello..';
+    }
+}
+//Pas d 'objet cree 
+MaClass::Hello();
+echo MaClass::$_data;
 //creation d'objet
 $obj1 = new Vehicle('Liti',70);
 $obj1->move();
